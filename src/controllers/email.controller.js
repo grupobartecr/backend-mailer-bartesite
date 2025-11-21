@@ -20,9 +20,9 @@ export const sendEmail = async (req, res) => {
         const emailParams = new EmailParams()
             .setFrom(sentFrom)
             .setTo(recipients)
-            .setSubject("Nuevo mensaje desde el formulario de contacto")
+            .setSubject("Formulario de contacto sitio web www.barteservice.com")
             .setHtml(`
-        <h1>Nuevo mensaje</h1>
+        <h1>Nuevo mensaje desde el formulario de contacto sitio web www.barteservice.com</h1>
         <p><strong>Nombre:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Mensaje:</strong> ${message}</p>
